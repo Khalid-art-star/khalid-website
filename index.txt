@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khalid Khan | Personal Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#0077ff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+section{
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0077ff;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#0077ff;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Khalid Khan</h1>
+    <p>Welcome to My Personal Website</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is Khalid Khan. Welcome to my personal website.
+        I am passionate about learning new things and exploring technology.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Communication</li>
+        <li>Computer Knowledge</li>
+        <li>Internet & Technology</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Information</h2>
+
+    <div class="contact">
+        <p><strong>Mobile:</strong> 9685730800</p>
+        <p><strong>Email:</strong> Khxalid00@gmail.com</p>
+
+        <a class="btn" href="tel:9685730800">Call Me</a>
+        <a class="btn" href="mailto:Khxalid00@gmail.com">Email Me</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Khalid Khan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
